@@ -1,6 +1,6 @@
 # Demo Project for Chicago JS December 2022 Meetup
 
-This is a demo project for [Nick Taylor](https://www.iamdeveloper.com/pages/about/)'s talk on Fresh, a new full stack web framework for Deno.
+This is a demo project for [Nick Taylor](https://www.iamdeveloper.com/pages/about/)'s talk on [Fresh](https://fresh.deno.dev), a new full stack web framework for Deno.
 
 Resources:
 
