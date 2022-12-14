@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  margin: 1rem;
+  --accent-color: #ccc;
+  --border: 1px solid var(--accent-color);
+  --border-radius: 0.25rem;
+  --gap: 1rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 0.5rem;
+  max-width: 350px;
+}
+
+.lemon-container {
+  justify-content: space-around;
+  place-items: center;
+  max-width: 350px;
+}
+
+.counter {
+  place-items: center;
+  gap: var(--gap);
+}
+
+button + button {
+  margin-left: 1rem;
+}
+
+label {
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+button {
+  padding: 0.5rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background-color: var(--accent-color);
+}
+
+nav ul {
+  display: flex;
+  gap: var(--gap);
+  padding: 0.5rem;
+  background-color: #fff;
+  list-style: none;
+}
